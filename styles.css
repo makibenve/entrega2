@@ -50,7 +50,9 @@ header {
     color: var(--textblack);
     font-weight: 400;
 }
-
+.navbar-list a:hover {
+    color: var(--backgroundsecondary);
+}
 .navbar-list :first-child > a {
     font-weight: 800;
 }
@@ -117,6 +119,11 @@ main {
 .intro-btn{
     display: flex;
     gap: 40px;
+}
+
+.intro-btn button:hover {
+    background-color: var(--backgroundsecondary);
+    color: var(--textcolorprim);
 }
 #masinfo {
     display: flex;
