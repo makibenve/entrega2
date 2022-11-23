@@ -77,19 +77,21 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     flex-direction: column;
     margin-top: 80px;
     gap: 60px;
-
 }
 #hero {
+    font-family: museomoderno, sans-serif;
+    padding: 70px 0;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200;
-    font-family: museomoderno, sans-serif;
-    width: 80%   
+    flex-direction: column;
+    gap: 80px;
 }
 .intro-info {
     display: flex;
@@ -99,7 +101,7 @@ main {
     gap: 30px;
 }
 .intro-info img { 
-    width: 30%
+    width: 30%;
 }
 .intro-text {
     display: flex;
@@ -123,7 +125,7 @@ main {
 
 .intro-btn button:hover {
     background-color: var(--backgroundsecondary);
-    color: var(--textcolorprim);
+    color: var(--textcolorprim); 
 }
 #masinfo {
     display: flex;
@@ -131,7 +133,7 @@ main {
     align-items: center;
     max-width: 1200;
     font-family: museomoderno, sans-serif;
-    width: 60%;   
+    width: 90%;   
     flex-direction: column; 
     background-color: var(--boxbackground);
     border-radius: 15px;
@@ -145,4 +147,77 @@ main {
     font-family: museomoderno, sans-serif;
     width: 80%;
     color: var(--textcolorinverse);
+}
+#servicios {
+        /* padding: 40px 0;
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        font-family: museomoderno;
+        background: var(--boxbackground);
+        border-radius: 15px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200;
+        font-family: museomoderno, sans-serif;
+        width: 90%;   
+        flex-direction: column; 
+        background-color: var(--boxbackground);
+        border-radius: 15px;
+        padding: 30px 20px;
+       
+    }
+    
+ #servicios h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+#servicios p {
+    font-size: 16px;
+    font-weight: 300;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200;
+    font-family: museomoderno, sans-serif;
+    width: 90%;   
+    background-color: var(--boxbackground);
+    border-radius: 15px;
+    padding: 30px 20px;
+    
+}
+.box {
+    width: 280px;
+    height: 260px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--secondary);
+    gap: 20px;
+    border-radius: 10px;
+    border-radius: 1rem;
+    border: 1px solid var(--backgroundprimary);
+    height: 350px;
+}
+
+#contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200;
+    font-family: museomoderno, sans-serif;
+    width: 90%;   
+    flex-direction: column; 
+    background-color: var(--boxbackground);
+    border-radius: 15px;
+    padding: 30px 20px;
 }
