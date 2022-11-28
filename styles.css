@@ -78,7 +78,6 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1200px;
     flex-direction: column;
     margin-top: 80px;
     gap: 60px;
@@ -131,7 +130,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200;
+    max-width: 1200px;
     font-family: museomoderno, sans-serif;
     width: 90%;   
     flex-direction: column; 
@@ -143,7 +142,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200;
+    max-width: 1200px;
     font-family: museomoderno, sans-serif;
     width: 80%;
     color: var(--textcolorinverse);
@@ -163,7 +162,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 1200;
+        max-width: 1200px;
         font-family: museomoderno, sans-serif;
         width: 90%;   
         flex-direction: column; 
@@ -185,7 +184,7 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 1200;
+    max-width: 1200px;
     font-family: museomoderno, sans-serif;
     width: 90%;   
     background-color: var(--boxbackground);
@@ -208,16 +207,48 @@ main {
     border: 1px solid var(--backgroundprimary);
     height: 350px;
 }
-
 #contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200;
+    max-width: 1200px;
     font-family: museomoderno, sans-serif;
     width: 90%;   
-    flex-direction: column; 
     background-color: var(--boxbackground);
     border-radius: 15px;
     padding: 30px 20px;
+    flex-direction: column;
 }
+#contact-section h2 {
+    gap: 20;
+    padding: 20px;
+    font-weight: 800;
+}
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 4%;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    padding:  20px;
+    gap: 50px;
+    align-items: center;    
+} 
+footer {
+    background-color: var(--background);
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--bg-white);
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
